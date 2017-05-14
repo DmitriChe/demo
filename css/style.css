@@ -1,0 +1,140 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+img, div{
+	box-sizing: border-box;
+}
+
+.clearfix:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+
+body{
+	padding: 50px 0px;
+	background: url(../img/wood.png);
+}
+
+.header img{
+	float: left;
+}
+
+.header ul, .right ul{
+	list-style-type: none;
+}
+
+.header .menu ul{
+	float: right; 	
+}
+
+.menu ul li{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header, .subheader, .content, .footer{
+	width: auto;
+	min-height: 40px;
+	border: 1px dotted grey;
+}
+
+.wrapper{
+	margin: 0 auto;
+	border: 1px dashed red;
+	max-width: 800px;
+	min-height: 40px;
+	background: white;
+}
+
+.left{
+	float: left;
+	max-width: 602px;
+}
+
+.right{
+	overflow: hidden;
+	min-width: 50px;
+	padding: 20px 5px 20px;
+}
+
+.cloud{
+	width: 70%;
+	
+	border-radius: 4px;
+	background: lightgrey;
+}
+
+.birdsthoughts{
+	max-width: 70%;
+	float: left;
+}
+
+.birdsthoughts img{
+	margin: 0 auto;
+	display: block;
+}
+
+.bird{
+	overflow: hidden;
+	
+}
+.bird img{
+	vertical-align: bottom;
+}
+
+.items, .buttons{
+	margin: 0 auto;
+	padding: 10px;
+	width: auto;
+	border: 1px dashed green;
+}
+
+.buttons{
+	float: right;
+	min-width: 70%;
+}
+
+.square{
+	float: left;
+	max-width: 270px;
+	margin: 10px;
+	min-height: 240px;
+	background: yellow;
+}
+
+.square img{
+	width: 100%;
+	border: 3px solid lightgrey;
+	border-radius: 5px;
+	padding: 2px;
+	background: lightgrey;
+}
+
+
+.square:nth-child(2n + 3){
+	clear: both;
+}
+
+.button{
+	float: left;
+	min-width: 30%;
+	margin: 5px;
+	min-height: 30px;
+	border-radius: 4px;
+	background: green;
+	text-align: center;
+}
+
+.footer{
+	clear:both;
+}
+
+.facebook, .twitter{
+	display: inline-block;
+}
